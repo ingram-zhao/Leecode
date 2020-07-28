@@ -19,6 +19,6 @@ class Solution:
                 return head.next
         while former:
             former = former.next
-            latter = latter.next
         latter.next = latter.next.next
         return head
+            latter = latter.next
