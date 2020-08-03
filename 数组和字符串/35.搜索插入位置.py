@@ -22,7 +22,5 @@ def searchInsert2(nums,target):
             low = mid
     return low  
 
-
-
 if __name__ == "__main__":
     pass
